@@ -1,6 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Redirect, Route,Switch} from 'react-router-dom'
-
+import {BrowserRouter as Router, Redirect, Route,Switch} from 'react-router-dom';
 import Users from './user/pages/Users';
 import Newplaces from './places/pages/Place';
 
@@ -19,7 +18,6 @@ function App() {
       </Route>
         <Redirect to="/users"/>
       </Switch>
-    
   </Router>
     
   
